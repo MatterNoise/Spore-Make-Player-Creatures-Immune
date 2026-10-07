@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mod description="" displayName="Make Player Creatures Immune" dllsBuild="$SPOREMOD_DLLS_BUILD" hasCustomInstaller="false" installerSystemVersion="1.0.1.2" isExperimental="$SPOREMOD_EXPERIMENTAL" unique="makePlayerCreaturesImmune">
+  <prerequisite game="GalacticAdventures">Spore-Make-Player-Creatures-Immune.package</prerequisite>
+</mod>
