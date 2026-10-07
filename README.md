@@ -1,2 +1,8 @@
 # Make Player Creatures Immune
-You can download the mod in the Releases page.
+
+Write 'makePlayerCreatureImmune' to make your Creatures immune to any type of damage!.
+
+
+
+Only works in Creature Stage.
+
