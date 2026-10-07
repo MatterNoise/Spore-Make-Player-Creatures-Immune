@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../SporeModAPI-SDK/Spore ModAPI/Spore ModAPI.vcxproj" />
+  <Project Path="Make-Player-Creatures-Immune.vcxproj">
+    <BuildDependency Project="../SporeModAPI-SDK/Spore ModAPI/Spore ModAPI.vcxproj" />
+  </Project>
+</Solution>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod description="" displayName="Make Player Creatures Immune" dllsBuild="$SPOREMOD_DLLS_BUILD" hasCustomInstaller="false" installerSystemVersion="1.0.1.2" isExperimental="$SPOREMOD_EXPERIMENTAL" unique="makePlayerCreaturesImmune">
+<mod description="Write 'makePlayerCreaturesImmune' to make your creatures immune to all damage!, works only in Creature Stage" displayName="Make Player Creatures Immune" dllsBuild="$SPOREMOD_DLLS_BUILD" githubUrl="https://github.com/MatterNoise/Spore-Make-Player-Creatures-Immune" hasCustomInstaller="false" installerSystemVersion="1.0.1.2" isExperimental="$SPOREMOD_EXPERIMENTAL" unique="makePlayerCreaturesImmune" websiteUrl="https://github.com/MatterNoise/Spore-Make-Player-Creatures-Immune">
   <prerequisite game="GalacticAdventures">Spore-Make-Player-Creatures-Immune.package</prerequisite>
+  <prerequisite>Make-Player-Creatures-Immune.dll</prerequisite>
 </mod>
