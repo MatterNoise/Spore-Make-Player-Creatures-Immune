@@ -17,17 +17,24 @@ void MakePlayerCreaturesImmuneCheat::ParseLine(const ArgScript::Line& line)
 	// This method is called when your cheat is invoked.
 	// Put your cheat code here.
 
-	App::ConsolePrintF("PlayersCreatureImmunitySystem toggled!");
+	if (PlayerCreaturesImmunitySystemA.GetSystemRun() == false) {
+		App::ConsolePrintF("PlayersCreatureImmunitySystem toggled On!");
 
-	PlayerCreaturesImmunitySystemA.ToggleSystemRun(true);
+		PlayerCreaturesImmunitySystemA.ToggleSystemRun(true);
+	}
+	else {
+		App::ConsolePrintF("PlayersCreatureImmunitySystem toggled Off!");
+
+		PlayerCreaturesImmunitySystemA.ToggleSystemRun(false);
+	}
 }
 
 const char* MakePlayerCreaturesImmuneCheat::GetDescription(ArgScript::DescriptionMode mode) const
 {
 	if (mode == ArgScript::DescriptionMode::Basic) {
-		return "This cheat does something.";
+		return "This cheat makes your creatures immune to the damage.";
 	}
 	else {
-		return "MakePlayerCreaturesImmuneCheat: Elaborate description of what this cheat does.";
+		return "MakePlayerCreaturesImmuneCheat: This cheat makes your creatures immune to any type of damage.";
 	}
 }

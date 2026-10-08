@@ -34,6 +34,7 @@ public:
 	//
 
 	void ToggleSystemRun(bool RunningToggle);
+	bool GetSystemRun();
 
 	static Simulator::Attribute ATTRIBUTES[];
 

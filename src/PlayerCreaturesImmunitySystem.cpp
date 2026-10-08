@@ -73,4 +73,9 @@ void PlayerCreaturesImmunitySystem::ToggleSystemRun(bool RunningToggle)
 	isSystemRunning = RunningToggle;
 }
 
+bool PlayerCreaturesImmunitySystem::GetSystemRun()
+{
+	return isSystemRunning;
+}
+
 PlayerCreaturesImmunitySystem* PlayerCreaturesImmunitySystem::sInstance;
